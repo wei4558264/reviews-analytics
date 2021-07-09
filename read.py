@@ -14,3 +14,11 @@ for d in data:
 print('一共有', len(new), '筆清單長度小於100字')
 print(new[0])
 print(new[1])
+
+good = []
+for d in data:
+	if 'good' in d:
+		good.append(d)
+print('留言中有出現 good 共有',len(good), '筆')
+print(good[0])
+print(good[1])
